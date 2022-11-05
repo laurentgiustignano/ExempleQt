@@ -15,7 +15,7 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(ExempleQt main.cpp)
+add_executable(ExempleQt main.cpp demo.cpp demo.h demo.ui)
 target_link_libraries(ExempleQt
         Qt::Core
         Qt::Gui
