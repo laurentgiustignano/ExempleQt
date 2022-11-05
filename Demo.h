@@ -19,6 +19,10 @@ public:
 private:
     QPushButton *monBouton;
     QGridLayout *maGrille;
+    short compteur;
+
+private slots:
+    void buttonClicked();
 };
 
 #endif //EXEMPLEQT_DEMO_H
