@@ -5,8 +5,14 @@
 #ifndef EXEMPLEQT_DEMO_H
 #define EXEMPLEQT_DEMO_H
 
-class Demo
+#include <QWidget>
+
+class Demo : public QWidget
 {
+Q_OBJECT
+public:
+    explicit Demo(QWidget *parent = nullptr);
+    ~Demo() override;
 };
 
 #endif //EXEMPLEQT_DEMO_H

@@ -3,3 +3,11 @@
 //
 
 #include "Demo.h"
+
+Demo::Demo(QWidget *parent) : QWidget(parent) {
+    ;
+}
+
+Demo::~Demo() = default;
+
+
